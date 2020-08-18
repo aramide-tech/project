@@ -1,0 +1,216 @@
+.navbar {
+    background-color: white;
+}
+
+#header-name {
+    font-size: 25px;
+    color: rgb(47, 0, 47);
+    font-weight: 700;
+}
+
+#dot {
+    font-weight: 700;
+    color: #EA3788;
+}
+
+.nav-link {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.btn {
+    border-radius: 20px;
+    background-color: #EA3788;
+    border: none;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+  }
+  
+  /* style glyph */
+  .inner-addon .fa {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+  }
+  
+  /* align glyph */
+  .left-addon .fa  { left:  0px;}
+  .right-addon .fa { right: 0px;}
+  
+  /* add padding  */
+  .left-addon input  { padding-left:  30px; }
+  .right-addon input { padding-right: 30px; }
+#style-icon{
+    position: relative;
+    padding: 8px;
+    font-size: 35px;
+    color: #360F4F;
+    border: 5px solid #360F4F;
+    border-radius: 50%;
+}
+#style-icon2{
+    position: relative;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 35px;
+    color: #360F4F;
+    border: 5px solid #360F4F;
+    border-radius: 50%;
+}
+#style-bottom {
+    background-color: white;
+    box-shadow: 0 6px 6px -6px rgb(179, 178, 178);
+}
+.category-text{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 18px;
+    font-weight: 600;
+}
+.category-text2{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-top: 18px;
+    font-weight: 600;
+}
+.category-text4{
+    font-size: 18px;
+    padding-top: 18px;
+    margin-left:-10px;
+    font-weight: 600;
+}
+.category-text5{
+    font-size: 18px;
+    margin-left:-10px;  
+    padding-top: 18px;
+    font-weight: 600;
+}
+
+.btn2 {
+    border-radius: 5px;
+    background-color: #EA3788;
+    border: none;
+    height: auto;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#header-text {
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+}
+
+#add {
+    border: auto;
+    border-radius: 20px;
+    height: 50px;
+}
+
+.contain {
+    border: rgb(47, 0, 47) 2px solid;
+    display: inline-block;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.icon {
+    border: rgb(47, 0, 47) 2px solid;
+    padding-right: 30px;
+    position: absolute;
+    border-radius: 50%;
+    padding-top: 2px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+
+.icon-text {
+    padding-left: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    margin-bottom: 10px
+}
+
+.card-img-top {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: black
+}
+
+#sub {
+    font-size: 15px;
+    font-weight: 500
+}
+
+.card-text2 {
+    font-size: 17px;
+    font-weight: 600;
+    color: black
+}
+
+.top-searches-img {
+    width: 100%;
+    height: 200px;
+}
+
+.img-text {
+    font-size: 15px;
+    font-weight: 600;
+    color: black
+}
+
+
+
+.header {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+}
+
+.header-sub {
+    font-size: 18px;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background-color: #360F4F;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    font-weight: 600;
+    width: 2.375rem;
+    padding-left: 550px;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}

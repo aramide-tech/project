@@ -1,0 +1,39 @@
+.text-one {
+    font-size: 33px;
+    font-weight: 800;
+    color: black;
+}
+
+.text-two {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.label {
+    font-style: italic;
+    font-size: small;
+    font-weight: 400;
+}
+
+.card {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.btn2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    width: 220px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    height: 60px;
+    text-decoration: white;
+    font-size: 15px;
+    font-weight: 300;
+}
